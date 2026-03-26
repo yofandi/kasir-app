@@ -1,0 +1,1 @@
+import{d as o,c as r,a as t,o as s}from"./app-DBNPjPC_.js";import{_ as a}from"./_plugin-vue_export-helper-DlAUqK2U.js";const l=o({__name:"AlertsView",setup(n){return(p,e)=>(s(),r("div",null,[...e[0]||(e[0]=[t("h1",null,"Alerts",-1),t("p",null,"Placeholder for Alerts page.",-1)])]))}}),d=a(l,[["__scopeId","data-v-28ed9665"]]);export{d as default};

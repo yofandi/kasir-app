@@ -1,0 +1,1 @@
+import{d as t,c as o,a as e,o as r}from"./app-DBNPjPC_.js";import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";const c=t({__name:"BasicChartView",setup(n){return(l,a)=>(r(),o("div",null,[...a[0]||(a[0]=[e("h1",null,"Basic Chart",-1),e("p",null,"Placeholder for Basic Chart page.",-1)])]))}}),i=s(c,[["__scopeId","data-v-6bd6dd46"]]);export{i as default};

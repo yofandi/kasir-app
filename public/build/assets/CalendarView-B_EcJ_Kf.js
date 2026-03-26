@@ -1,0 +1,1 @@
+import{d as o,c as r,a,o as n}from"./app-DBNPjPC_.js";import{_ as l}from"./_plugin-vue_export-helper-DlAUqK2U.js";const t=o({__name:"CalendarView",setup(s){return(d,e)=>(n(),r("div",null,[...e[0]||(e[0]=[a("h1",null,"Calendar",-1),a("p",null,"Placeholder for Calendar page.",-1)])]))}}),c=l(t,[["__scopeId","data-v-00317ab3"]]);export{c as default};

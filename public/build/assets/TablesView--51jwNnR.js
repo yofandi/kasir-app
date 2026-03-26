@@ -1,0 +1,1 @@
+import{d as o,c as s,a,o as l}from"./app-DBNPjPC_.js";import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=o({__name:"TablesView",setup(n){return(c,e)=>(l(),s("div",null,[...e[0]||(e[0]=[a("h1",null,"Tables",-1),a("p",null,"Placeholder for Tables page.",-1)])]))}}),d=t(r,[["__scopeId","data-v-fdac007c"]]);export{d as default};

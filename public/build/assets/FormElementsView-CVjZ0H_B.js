@@ -1,0 +1,1 @@
+import{d as t,c as r,a as o,o as n}from"./app-DBNPjPC_.js";import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";const a=t({__name:"FormElementsView",setup(l){return(m,e)=>(n(),r("div",null,[...e[0]||(e[0]=[o("h1",null,"Form Elements",-1),o("p",null,"Placeholder for Form Elements page.",-1)])]))}}),c=s(a,[["__scopeId","data-v-7859d04a"]]);export{c as default};

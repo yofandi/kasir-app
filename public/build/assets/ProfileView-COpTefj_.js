@@ -1,0 +1,1 @@
+import{d as r,c as a,a as o,o as l}from"./app-DBNPjPC_.js";import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";const n=r({__name:"ProfileView",setup(s){return(f,e)=>(l(),a("div",null,[...e[0]||(e[0]=[o("h1",null,"Profile",-1),o("p",null,"Placeholder for Profile page.",-1)])]))}}),i=t(n,[["__scopeId","data-v-c2f6d6d8"]]);export{i as default};

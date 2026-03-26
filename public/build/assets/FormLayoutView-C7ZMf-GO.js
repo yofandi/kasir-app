@@ -1,0 +1,1 @@
+import{d as a,c as t,a as e,o as r}from"./app-DBNPjPC_.js";import{_ as n}from"./_plugin-vue_export-helper-DlAUqK2U.js";const s=a({__name:"FormLayoutView",setup(l){return(m,o)=>(r(),t("div",null,[...o[0]||(o[0]=[e("h1",null,"Form Layout",-1),e("p",null,"Placeholder for Form Layout page.",-1)])]))}}),u=n(s,[["__scopeId","data-v-7fec5ed7"]]);export{u as default};

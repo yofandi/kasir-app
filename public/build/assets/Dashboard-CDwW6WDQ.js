@@ -1,0 +1,1 @@
+import{d as o,c as r,a,o as s}from"./app-DBNPjPC_.js";import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";const n=o({__name:"Dashboard",setup(d){return(p,e)=>(s(),r("div",null,[...e[0]||(e[0]=[a("h1",null,"DashboardPage",-1),a("p",null,"Welcome to the Inertia.js powered dashboard page.",-1)])]))}}),_=t(n,[["__scopeId","data-v-44f1b80c"]]);export{_ as default};

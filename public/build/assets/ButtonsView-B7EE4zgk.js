@@ -1,0 +1,1 @@
+import{d as o,c as n,a as t,o as s}from"./app-DBNPjPC_.js";import{_ as a}from"./_plugin-vue_export-helper-DlAUqK2U.js";const r=o({__name:"ButtonsView",setup(l){return(p,e)=>(s(),n("div",null,[...e[0]||(e[0]=[t("h1",null,"Buttons",-1),t("p",null,"Placeholder for Buttons page.",-1)])]))}}),_=a(r,[["__scopeId","data-v-b7521c66"]]);export{_ as default};
