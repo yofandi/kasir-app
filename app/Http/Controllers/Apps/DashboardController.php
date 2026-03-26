@@ -26,9 +26,12 @@ class DashboardController extends Controller
 
         //chart sales 7 days
         $chart_sales_week = DB::table('transactions')
-            ->addSelect(DB::raw('DATE(created_at) as date, SUM(grand_total) as grand_total'))
+            ->select(
+                DB::raw('DATE(created_at) as date'),
+                DB::raw('SUM(grand_total) as grand_total')
+            )
             ->where('created_at', '>=', $week)
-            ->groupBy('date')
+            ->groupBy(DB::raw('DATE(created_at)'))
             ->get();
 
         if (count($chart_sales_week)) {
@@ -88,10 +91,17 @@ class DashboardController extends Controller
 
         //chart best selling product
         $chart_best_products = DB::table('transaction_details')
-            ->addSelect(DB::raw('products.title as title, SUM(transaction_details.qty) as total'))
+            ->select(
+                'transaction_details.product_id',
+                'products.title',
+                DB::raw('SUM(transaction_details.qty) as total')
+            )
             ->join('products', 'products.id', '=', 'transaction_details.product_id')
-            ->groupBy('transaction_details.product_id')
-            ->orderBy('total', 'DESC')
+            ->groupBy(
+                'transaction_details.product_id',
+                'products.title'
+            )
+            ->orderByDesc('total')
             ->limit(5)
             ->get();
 

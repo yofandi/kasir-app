@@ -19,3 +19,9 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+# Izinkan build hasil vite / mix
+!public/build/
+
+# Izinkan file root
+!index.php
+!.htaccess
